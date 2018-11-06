@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:textSize="40sp"
+            android:text="存錢"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/etSaving"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"
+            android:text=""
+            android:numeric="integer"
+            android:layout_width="match_parent"
+            android:layout_height="60dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ok"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

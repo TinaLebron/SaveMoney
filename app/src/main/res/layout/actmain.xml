@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/btnReset"
+        android:textSize="50px"
+        android:text="重置"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip" />
+
+    <TextView
+        android:background="@android:color/darker_gray"
+        android:gravity="center_horizontal"
+        android:textSize="35sp"
+        android:text="總金額"
+        android:layout_width="match_parent"
+        android:layout_height="60dip" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="250dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/darker_gray"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/saving" />
+    <TextView
+        android:background="@android:color/darker_gray"
+        android:gravity="center_horizontal"
+        android:id="@+id/tvTitle"
+        android:textSize="50sp"
+        android:text="------"
+        android:layout_width="match_parent"
+        android:layout_height="100dip" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnSaving"
+            android:textSize="80px"
+            android:layout_weight="1"
+            android:text="存錢"
+            android:layout_width="match_parent"
+            android:layout_height="100dip" />
+        <Button
+            android:id="@+id/btnList"
+            android:textSize="80px"
+            android:layout_weight="1"
+            android:text="歷史紀錄"
+            android:layout_width="match_parent"
+            android:layout_height="100dip" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
