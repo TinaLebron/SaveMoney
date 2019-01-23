@@ -1,6 +1,5 @@
 # SaveMoney
 
-## Main 
 目的:當初的目的是想說旅遊需要存錢,則我想到做一個存錢系統
 
 
@@ -16,7 +15,7 @@
 		 • 歷史紀錄可以做刪除 <br>
 	   • 功能要增加領錢系統 <br>
 
- <br>
+## Main 
 
 <img src="https://github.com/TinaLebron/SaveMoney/raw/master/main_1.png" width="250" />
 
